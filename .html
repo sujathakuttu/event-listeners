@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Listener Example</title>
+</head>
+<body>
+
+    <h2>JavaScript Event Listener</h2>
+
+    <button id="btn">Click Me</button>
+
+    <p id="message"></p>
+
+    <script>
+        const button = document.getElementById("btn");
+
+        button.addEventListener("click", function() {
+            document.getElementById("message").innerHTML =
+                "Event Listener executed successfully!";
+        });
+    </script>
+
+</body>
+</html>
